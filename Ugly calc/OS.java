@@ -6,6 +6,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import java.io.IOException;
 
 public class OS {
     public static void main(String[] args) {
@@ -30,6 +31,34 @@ public class OS {
         button.setFocusable(false);
         button.addActionListener(e -> {
             // Your code to execute when the button is clicked
+            try {
+                // Command to execute
+                String command = "java /home/sandesh/Desktop/Java/Ugly calc/Temp.java";
+    
+                // Create ProcessBuilder
+                ProcessBuilder processBuilder = new ProcessBuilder(command.split("\\s+"));
+                
+                // Optionally, set the working directory
+                // processBuilder.directory(new File("/path/to/working/directory"));
+    
+                // Start the process
+                Process process = processBuilder.start();
+    
+                // Read the output
+                java.io.InputStream is = process.getInputStream();
+                java.util.Scanner s = new java.util.Scanner(is).useDelimiter("\\A");
+                String output = s.hasNext() ? s.next() : "";
+    
+                // Wait for the command to complete
+                int exitCode = process.waitFor();
+    
+                // Print the output and exit code
+                System.out.println("Output: " + output);
+                System.out.println("Exit Code: " + exitCode);
+                s.close();
+            } catch (IOException | InterruptedException ew) {
+                ew.printStackTrace();
+            }
         });
 
         // panel
