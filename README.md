@@ -17,17 +17,14 @@ Prerequisites
 
 Installation
 
-    Clone the repository:
+    Clone the repository: https://github.com/sandygmr12/Java.git
 
-    bash
-
-git clone [[https://github.com/your-username/ugly-java-calculator.git](https://github.com/sandygmr12/Java.git)]
 
 Compile the Java source files:
 
 bash
 
-javac OS.java
+    javac OS.java
 
 Run the calculator:
 
@@ -47,7 +44,7 @@ If you think you can make this calculator even uglier (or maybe give it a faceli
 
 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is just for fun no license hehe :)
 Acknowledgments
 
     Thanks to the developers who inspire us to appreciate the beauty in ugliness.
