@@ -36,7 +36,8 @@ public class OS {
             // Your code to execute when the button is clicked
             try {
             // Command to execute
-            String command = "java /home/sandesh/Desktop/Java/Ugly calc/Temp.java";
+            String command = "java /home/sandesh/Desktop/Java/Ugly-calc/Temp.java";
+            
 
             // Execute the command
             Process process = Runtime.getRuntime().exec(command);
@@ -53,10 +54,16 @@ public class OS {
 
             // Print the exit code
             System.out.println("Exit Code: " + exitCode);
+            System.exit(0);
+            
         } catch (IOException | InterruptedException eq) {
             eq.printStackTrace();
         }
+        ((JButton) e.getSource()).getRootPane().getParent().setVisible(false);
         });
+        
+
+
 
         // panel
         JPanel panel = new JPanel();

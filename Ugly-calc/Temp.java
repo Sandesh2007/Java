@@ -203,7 +203,7 @@ public class Temp{
         // lbl.setBackground(Color.darkGray);
         // lbl.add(label);
         //frame
-        JFrame frame =new JFrame();
+        JFrame frame =new JFrame("Ugly calculator");
         frame.setResizable(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
