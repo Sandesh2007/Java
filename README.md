@@ -17,7 +17,7 @@ Prerequisites
 
 Installation
 
-    Clone the repository: https://github.com/Sandesh2007/Java.git
+    Clone the repository: https://github.com/Sandesh2007/Ugly-calc.git
 
 
 Compile the Java source files:
