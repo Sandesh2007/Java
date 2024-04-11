@@ -31,7 +31,6 @@ Here's how you can contribute:
 
     Fork the repository.
     Create a new branch: git checkout -b feature/ugly-enhancement.
-    Make your changes and commit them: git commit -am 'Add some ugliness'.
     Push to the branch: git push origin feature/ugly-enhancement.
     Submit a pull request.
 
