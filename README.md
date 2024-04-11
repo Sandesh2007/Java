@@ -1,12 +1,5 @@
 Awesome Ugly Java Calculator
 
-Welcome to the Awesome Ugly Java Calculator repository! This calculator might not be the prettiest, but it gets the job done. It's a simple Java application that performs basic arithmetic operations. Feel free to use, modify, and contribute to make it even uglier (or maybe prettier).
-Features
-
-    Basic arithmetic operations: addition, subtraction, multiplication, and division.
-    Java Swing GUI for a truly unique and questionable user interface.
-    Minimalist design (because who needs aesthetics anyway?).
-
 Getting Started
 
 Follow these instructions to get a copy of the ugly Java calculator running on your local machine.
@@ -34,7 +27,7 @@ bash
 
 Contributing
 
-If you think you can make this calculator even uglier (or maybe give it a facelift), contributions are welcome! Here's how you can contribute:
+Here's how you can contribute:
 
     Fork the repository.
     Create a new branch: git checkout -b feature/ugly-enhancement.
@@ -45,9 +38,6 @@ If you think you can make this calculator even uglier (or maybe give it a faceli
 License
 
 This project is just for fun no license hehe :)
-Acknowledgments
 
-    Thanks to the developers who inspire us to appreciate the beauty in ugliness.
-    Shoutout to anyone who contributes and embraces the ugliness of this calculator.
 
-Now go ahead, embrace the ugliness, and calculate like nobody's watching! 🧮💻
+ calculate like nobody's watching! 🧮💻
